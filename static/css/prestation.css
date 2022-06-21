@@ -1,0 +1,124 @@
+
+   /* .flipster__item--current {
+    margin-right: -40px !important;
+
+  } */
+  .flipster__item--past-1 {
+    margin-right: -40px !important;
+  }
+  .flipster__item--future-1 {
+    margin-left: 60px !important;
+  }
+  .flipster__container {
+    margin-left: -120px !important;
+  }
+.service-top {
+position: absolute;
+background-color: transparent;
+width: 100vw;
+}
+
+p {
+  line-height: 28px;
+}
+.service-header-custom {
+  padding-top: 100px;
+  background-color: black ;
+}
+.service-btn-custom {
+  font-size: 14px;
+  font-family: "archivo", sans-serif;
+  text-transform: none;
+  border-width: thin;
+}
+.service-btn-prev {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 50px 25px;
+}
+.flipster--flat .flipster__item--past, .flipster--flat .flipster__item--future{
+  opacity: 1 !important;
+}
+p {
+  font-size: 20px;
+}
+#coverflow {
+  padding-bottom:80px;
+}
+.image-text-absolute {
+  position: absolute;
+  left: 50%;
+  bottom: 35%;
+}
+.firstline-archivo {
+  font-family: 'Archivo' !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .s-text .row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+@media only screen and (min-width: 992px) {
+ 
+  .web-title{
+    display: flex;
+  }
+  .mobile-title {
+    display: none;
+  }
+  h1 {
+    line-height: 65px;
+  }
+  .service-title-custom{
+    color: black;
+    font-size: 40px;
+  }
+ 
+}
+@media only screen and (max-width: 992px) {
+  .hide-mobile{
+    display: none;
+ }
+  .web-title{
+    display: none;
+  }
+  .mobile-title {
+    display: flex;
+  }
+  @media only screen and (max-width: 767px) {
+    .title-div { margin-top: 55px !important;}
+
+  }
+  .title-div { margin-bottom: 0 !important;}
+  .hr-div { margin-top: 0 !important;}
+  .hr-div hr {
+    margin-top: 0 !important;
+  }
+  .image-text-absolute {
+    line-height: 27px !important;
+    font-size: 20px !important;
+  }
+  .center-mobile {
+    text-align: -webkit-center;
+    justify-content: center ; 
+  }
+  .service-title-custom{
+    color: black;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .image-text-absolute p {
+    font-size: 15px !important;
+  }
+}
+@media only screen and (min-width: 1678px) {
+}
+.s-text {
+background-position: right;
+}
