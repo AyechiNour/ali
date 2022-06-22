@@ -1,221 +1,136 @@
-.text-gris-custom {
-  color:#848484 ; 
+.service-h1 {
+    font-size: 51px;
   }
-  .text-gris-custom2 {
-      color: #666666 ; 
-      }
-  
-  footer{
-      background-color: #F3F3F5;
+   /* .flipster__item--current {
+    margin-right: -40px !important;
+
+  } */
+  .flipster__item--past-1 {
+    margin-right: -40px !important;
   }
-  .container{
-      
-      display: flex;
+  .flipster__item--future-1 {
+    margin-left: 60px !important;
   }
-  .first-section{
-      padding-top: 3em;
-      padding-left: 5em;
+  .flipster__container {
+    margin-left: -120px !important;
   }
-  .first-section p {
-      color: black;
-      font-family: 'Archivo , Medium';
-      width: 40%;
+.service-top {
+position: absolute;
+background-color: transparent;
+width: 100vw;
+}
+.service-main {
+
+}
+p {
+  line-height: 28px;
+}
+.service-header-custom {
+  padding-top: 100px;
+  background-color: black ;
+}
+.service-btn-custom {
+  font-size: 14px;
+  font-family: "archivo", sans-serif;
+  text-transform: none;
+  border-width: thin;
+}
+.service-btn-prev {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 50px 25px;
+}
+.flipster--flat .flipster__item--past, .flipster--flat .flipster__item--future{
+  opacity: 1 !important;
+}
+p {
+  font-size: 20px;
+}
+#coverflow {
+  padding-bottom:80px;
+}
+.image-text-absolute {
+  position: absolute;
+  left: 50%;
+  bottom: 35%;
+}
+.firstline-archivo {
+  font-family: 'Archivo' !important;
+
+}
+@media only screen and (max-width: 1400px) {
+  .s-text .row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+}
+@media only screen and (min-width: 992px) {
+ 
+  .web-title{
+    display: flex;
   }
-  .icons{
-      display: flex;
-      gap: 1em;
+  .mobile-title {
+    display: none;
   }
-  .fa-envelope{
-   padding-top: 1em;
+  h1 {
+    line-height: 65px;
   }
-  .fa-phone{
-      padding-top: 1em;
+  .service-title-custom{
+    color: black;
+    font-size: 51px;
   }
-  .brands{
-      padding-top: 1em;
-      display: flex;
-      gap: 2em;
-      font-size: large;
+}
+@media only screen and (max-width: 992px) {
+  .hide-mobile{
+    display: none;
+ }
+  .web-title{
+    display: none;
   }
-  .second-section{
-      padding-top: 5em;
-      display: flex;
-      flex-direction: row;
-      gap: 5em;
-      width: 60%;
+  .mobile-title {
+    display: flex;
   }
-  .copy{
-      border-top: 4px black;
-      text-align: center;
+  @media only screen and (max-width: 767px) {
+    .title-div { margin-top: 55px !important;}
+
   }
-  
-  .platform-top {
-      position: absolute;
-      background-color: transparent;
-      width: 100vw;
-      }
-      
-      .platform-btn-custom {
-          font-size: 14px;
-          font-family: "archivo", sans-serif;
-          text-transform: none;
-          border-width: thin;
-        }
-        
-        @media only screen and (min-width: 1200px) {
-  .title2{
-  
-      font-size: 45px;
+  .title-div { margin-bottom: 0 !important;}
+  .hr-div { margin-top: 0 !important;}
+  .hr-div hr {
+    margin-top: 0 !important;
   }
-  
-  .title1 {
-   font-size: 21px;
+  .image-text-absolute {
+    line-height: 27px !important;
+    font-size: 20px !important;
   }
-  
-  .title3 {
-  font-size: 41px;
+  .center-mobile {
+    text-align: -webkit-center;
+    justify-content: center ; 
   }
-  
-  .platform-text-krona {
-      font-family:  'Krona One';
+  .service-title-custom{
+    color: black;
+    font-size: 40px;
   }
-  
-  .platform-text-arc {
-  font-family: 'archivo';
+}
+@media only screen and (max-width: 576px) {
+
+  .presentation-img {
+    display: block;
   }
-  
-  .head-img-left {
-    position: relative;
-      overflow: hidden;
-      /* height: 685px; */
-      margin-bottom: -9px;
-      left: 1000px;
+}
+@media only screen and (max-width: 600px) {
+
+  .image-text-absolute p {
+    font-size: 15px !important;
   }
-  .head-img-left img {
-  
-      object-fit: initial;
-      max-width: 2000px;
-      width: 127%;
-      height: 832px;
-  }
-  .max-900-for-web {
-  max-height: 900px;
-  }
-  .text-start-pos {
-      text-align: left;
-      padding-top: 110px;
-      padding-left: 9%;
-       
-  }
-  
-  
-  
-  .text-to-left-web {
-    align-items: left;  
-  }
-  .title4 {
-      font-size: 27px;
-     }
-  
-  
-  
-     .text-custom {
-      line-height: 56px;
-  }
-  }
-  .head-img-left2 {
-      overflow: hidden;
-      height: fit-content;
-     
-  }
-  .head-img-left2 img {
-  
-      object-fit: initial;
-      max-width: 2000px;
-      width: 132%;
-  
-  }
-  .margin-left-custom {
-      padding-left: 100px;
-  }
-  .margin-bottom-custom {
-      padding-bottom: 150px;
-  }
-  .padding-top-custom { 
-      padding-top: 150px;
-  }
-  .pb-custom-100 {
-      padding-bottom: 100px;
-  }
-  
-  @media only screen and (max-width: 1200px) {
-  
-      .title2{
-  
-          font-size: 31px;
-      }
-      
-      .title1 {
-       font-size: 16px;
-      }
-      .title3 {
-      font-size: 32px;
-      }
-      
-      .platform-text-krona {
-          font-family:  'Krona One';
-      }
-      
-      .platform-text-arc {
-      font-family: 'archivo';
-      }
-      
-      .head-img-left {
-          overflow: hidden !important;
-          margin-bottom: -9px;
-      }
-      .head-img-left img {
-  
-       overflow: hidden !important;
-  
-      }
-      .max-900-for-web {
-      max-height: none;
-      }
-      .text-start-pos {
-          text-align: center;
-          padding-top: 110px;
-       
-           
-      }
-  
-  
-      .text-to-left-web {
-          align-items: center;  
-        }
-        .title4 {
-            font-size: 20px;
-           }
-        
-        .head-img-left2 {
-           
-            height: fit-content;
-           
-        }
-        .head-img-left2 img {
-            width: 100%;
-        
-        }
-        .margin-left-custom {
-            padding-left: 20px;
-        }
-        .margin-bottom-custom {
-            padding-bottom: 20;
-        }
-     .center-mobil { 
-      text-align: center;
-     }
+}
+@media only screen and (min-width: 1678px) {
+
+  .s-text {
    
-  
-    }
-  
+  }
+}
+.s-text {
+background-position: right;
+}
