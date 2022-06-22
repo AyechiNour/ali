@@ -1,0 +1,898 @@
+/*---------------------------------------------------- youssef 5edma ----------------------------------------*/
+.menu li {
+    margin: 20px 0px -50px 0px !important;
+}
+
+.menu a {
+    font-size: 50px !important;
+    color: white !important;
+}
+
+.menu a:hover {
+    color: #4f4f4f !important;
+}
+
+.blog-h1 {
+    font-size: 110px !important;
+    text-align: start !important;
+}
+
+.descriptionBloc {
+    position: relative !important;
+    left: -100px !important;
+    text-align: start !important;
+}
+.bloc11{
+    width: 50%;
+
+}
+.footer-items {
+    position: relative !important;
+    top: 75px !important;
+    left: 10% !important;
+    width: 25%;
+
+}
+
+.footer-item {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+
+}
+
+.footer-item:hover {
+    color: #00000094 !important;
+
+
+}
+
+.icons-footer {
+    display: flex !important;
+    justify-content: start !important;
+    align-items: center !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+
+
+.service-h1 {
+    font-size: 40px !important;
+}
+
+.h-41 {
+    font-size: 35px !important;
+    text-align: center !important;
+}
+
+#prof {
+    font-size: 20px !important;
+}
+
+.topTilte {
+    position: relative !important;
+    top: 18px !important;
+}
+
+.cardprestation {
+    font-size: 15px !important;
+    line-height: 18px !important;
+    font-weight: 500 !important;
+    position: relative !important;
+    top: -10px !important;
+}
+
+.pagination {
+    display: block !important;
+    position: relative !important;
+    top: 50px !important;
+    right: 0% !important;
+    z-index: 2 !important;
+
+    margin: 1em auto !important;
+    text-align: center !important;
+    background-color: transparent !important;
+    padding: 10px 0 !important;
+    cursor: pointer !important;
+
+}
+
+.pagination-button {
+    position: relative !important;
+    left: 0 !important;
+    border: solid 1px black !important;
+    padding: 10px 15px !important;
+    margin: 0 2px !important;
+}
+
+.pagination-button.active {
+    background-color: #000 !important;
+    color: white !important;
+}
+
+/* arbitrary styles */
+.heading {
+    text-align: center !important;
+    max-width: 500px !important;
+    margin: 20px auto !important;
+}
+
+
+
+
+
+/* ---------------------------------- */
+
+.cardContainer {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(245, 245, 245) !important;
+    position: relative !important;
+    padding: 50px 0 !important;
+    top: 0px !important;
+    width: 100% !important;
+
+}
+
+.cardPagination {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 250px !important;
+
+    margin: 10px 40px !important;
+
+}
+
+.border-bottomCard {
+    height: 1px !important;
+    width: 100% !important;
+    border: solid 1px black !important;
+}
+
+.datePagination {
+    display: flex !important;
+    justify-content: center !important;
+    background-color: black !important;
+    width: 100px !important;
+    color: rgb(255 255 255) !important;
+    font-size: 10px !important;
+    font-weight: 800 !important;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 12px !important;
+    letter-spacing: 1px !important;
+}
+
+.imCard {
+    width: 270px !important;
+    height: 160px !important;
+    -moz-box-shadow: 5px 5px 50px rgb(234, 234, 234) !important;
+    -webkit-box-shadow: 5px 5px 5px rgb(234, 234, 234) !important;
+    margin: 18px 0px !important;
+}
+
+.titreBlog {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    font-family: 'Anek Malayalam', sans-serif !important;
+    letter-spacing: 0.5px !important;
+    line-height: 110% !important;
+    width: 200px !important;
+    color: #000 !important;
+}
+
+.Read {
+    color: rgb(137, 137, 137) !important;
+    font-size: 9px !important;
+    font-weight: 10px !important;
+    font-family: 'Roboto', sans-serif !important;
+    position: absolute !important;
+    top: 13px !important;
+    right: 0px !important;
+    cursor: pointer !important;
+}
+
+.configCard {
+    position: relative !important;
+}
+
+.svgCard {
+    cursor: pointer !important;
+}
+
+.divide2 {
+    background-color: rgb(245, 245, 245) !important;
+    position: relative !important;
+    
+    z-index: 0 !important;
+}
+/* xl */
+.footBloc{
+display: flex;
+color: #868686  !important;
+}
+/* 2xl */
+@media (max-width: 2050px) {
+    .t-blog{
+
+        font-size: 40px;
+    }
+   .section-h1{
+    font-size: 40px;
+   }
+    .flipster__item img {
+        max-width: 100%;
+        width: 536px !important;
+        height: 536px;
+        position: relative;
+        left: -18px;
+      }
+    #coverflow{
+     position: relative;
+     top: -50px;
+    }
+    .cardPagination {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 400px !important;
+        margin: 10px 100px !important;
+    }
+
+    .imCard {
+        width: 450px !important;
+        height: 280px !important;
+        -moz-box-shadow: 5px 5px 50px rgb(234, 234, 234) !important;
+        -webkit-box-shadow: 5px 5px 5px rgb(234, 234, 234) !important;
+        margin: 18px 0px !important;
+    }
+
+    .footer-items {
+        position: relative !important;
+        top: 75px !important;
+        left: 10% !important;
+    }
+
+    .footer-item {
+        font-size: 25px !important;
+        font-weight: 500 !important;
+
+    }
+
+    .pagination {
+        display: block !important;
+        position: relative !important;
+        top: 50px !important;
+        right: 710px !important;
+        z-index: 2 !important;
+
+        margin: 1em auto !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        padding: 10px 0 !important;
+        cursor: pointer !important;
+
+    }
+
+    .blog-h1 {
+        font-size: 125px !important;
+        text-align: start !important;
+    }
+    .semiTitle{
+        font-size: 20px !important;
+    }
+    .descriptionBloc {
+        position: relative !important;
+        left: -90px !important;
+        text-align: start !important;
+        font-size: 20px !important;
+        top: 75px;
+        
+    }
+    .blog-header {
+        background-image: url(../img/header-bg.png);
+        height: 60vh !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+.divide .top {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: black !important;
+    width: 60px !important;
+    height: 60px !important;
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 250px !important;
+    bottom: -18px !important;
+    border-radius: 2px !important;
+}
+.divide2 .top2 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: white !important;
+    width: 60px !important;
+    height: 60px !important;
+    position: absolute !important;
+    right: 0 !important;
+    margin-right: 250px !important;
+    bottom: -28px !important;
+    border-radius: 2px !important;
+}
+.service-header {
+    background-image: url(../img/services-header.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cardprestation {
+    font-size: 20px !important;
+    line-height: 25px !important;
+    font-weight: 500 !important;
+    position: relative !important;
+    top: -10px !important;
+}
+
+}
+
+@media (max-width: 1800px) {
+    
+    .flipster__item img {
+        max-width: 100%;
+        width: 536px !important;
+        height: 536px;
+        position: relative;
+        left: 0px;
+      }
+    .service-header {
+        background-image: url(../img/services-header.png);
+        height: 70vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    .cardPagination {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 300px !important;
+
+        margin: 10px 100px !important;
+
+    }
+    
+
+    .imCard {
+        width: 450px !important;
+        height: 250px !important;
+        -moz-box-shadow: 5px 5px 50px rgb(234, 234, 234) !important;
+        -webkit-box-shadow: 5px 5px 5px rgb(234, 234, 234) !important;
+        margin: 18px 0px !important;
+    }
+
+    .pagination {
+        display: block !important;
+        position: relative !important;
+        top: 50px !important;
+        right: 560px !important;
+        z-index: 2 !important;
+
+        margin: 1em auto !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        padding: 10px 0 !important;
+        cursor: pointer !important;
+
+    }
+    .semiTitle{
+        font-size: 18px !important;
+    }
+    .descriptionBloc {
+        position: relative !important;
+        left: -10px !important;
+        text-align: start !important;
+        font-size: 18px !important;
+        top: 75px;
+        
+    }
+    
+    .footer-item {
+        color: #868686 !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+
+    }
+}
+
+@media (max-width: 1700px) {
+   
+    .cardPagination {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 300px !important;
+        margin: 10px 50px !important;
+    }
+  
+    .imCard {
+        width: 350px !important;
+        height: 250px !important;
+        -moz-box-shadow: 5px 5px 50px rgb(234, 234, 234) !important;
+        -webkit-box-shadow: 5px 5px 5px rgb(234, 234, 234) !important;
+        margin: 18px 0px !important;
+    }
+
+    .pagination {
+        display: block !important;
+        position: relative !important;
+        top: 50px !important;
+        right: 460px !important;
+        z-index: 2 !important;
+        margin: 1em auto !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        padding: 10px 0 !important;
+        cursor: pointer !important;
+
+    }
+    .blog-header {
+        background-image: url(../img/header-bg.png);
+        height: 80vh !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .flipster__item img {
+        max-width: 100%;
+        width: 431px !important;
+        height: 431px;
+      }
+     
+      #coverflow{
+        position: relative;
+        top: 100px;
+       }
+}
+
+@media (max-width: 1280px) {
+
+    .descriptionBloc {
+        position: relative !important;
+        left: 0px !important;
+        text-align: center !important;
+        top: 75px;
+    }
+
+    .footer-item {
+        color: #000000 !important;
+        font-size: 15px !important;
+        font-weight: 400 !important;
+
+
+    }
+
+    .cardPagination {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 200px !important;
+
+        margin: 10px 50px !important;
+
+    }
+
+    .imCard {
+        width: 250px !important;
+        height: 160px !important;
+        -moz-box-shadow: 5px 5px 50px rgb(234, 234, 234) !important;
+        -webkit-box-shadow: 5px 5px 5px rgb(234, 234, 234) !important;
+        margin: 18px 0px !important;
+    }
+
+    .pagination {
+        display: block !important;
+        position: relative !important;
+        top: 50px !important;
+        right: 310px !important;
+        z-index: 2 !important;
+
+        margin: 1em auto !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        padding: 10px 0 !important;
+        cursor: pointer !important;
+
+    }
+    .descriptionBloc {
+        position: relative !important;
+        left: 0px !important;
+        text-align: center !important;
+        top: 75px;
+
+    }
+    
+}
+@media (max-width: 1215px) {
+    .menu a {
+        font-size: 20px !important;
+        color: white !important;
+
+    }
+
+    .menu li {
+        margin: 50px 0px -50px 0px !important;
+    }
+
+    .blog-h1 {
+        padding-top: 20px;
+        font-size: 50px !important;
+        text-align: center !important;
+    }
+
+    .descriptionBloc {
+        position: relative !important;
+        left: 0px !important;
+        text-align: center !important;
+        top: 75px;
+
+    }
+    .elements{
+        position: relative;
+        top: -20px;
+    }
+
+    .topTilte {
+        position: relative !important;
+        top: 0 !important;
+    }
+
+    .h-41 {
+        font-size: 30px !important;
+        text-align: center !important;
+        line-height: 5px !important;
+        position: relative !important;
+        top: 15px !important;
+    }
+    .blog-h1{
+        font-size: 100px !important;
+    }
+    .pagination {
+        display: block !important;
+        position: relative !important;
+        top: 50px !important;
+        right: 0% !important;
+        z-index: 2 !important;
+        margin: 1em auto !important;
+        text-align: center !important;
+        background-color: transparent !important;
+        padding: 10px 0 !important;
+        cursor: pointer !important;
+    
+    }
+    .service-header {
+        background-image: url(../img/services-header.png);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+       #coverflow{
+        position: relative;
+        top: 0px;
+       }
+
+}
+@media (max-width: 1000px) {
+    .blog-h1{
+        font-size: 70px !important;
+    }
+    .descriptionBloc {
+        position: relative !important;
+        left: 0px !important;
+        text-align: center !important;
+        top: 20px;
+
+    }
+    .blog-header {
+        background-image: url(../img/header-bg.png);
+        height: 60vh !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #coverflow{
+        padding-top:0px;
+        position: relative;
+        top: -100px;
+    }
+    .service-header {
+        background-image: url(../img/services-header.png);
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .flipster__item img {
+        max-width: 100%;
+        width: 436px !important;
+        height: 436px;
+        position: relative;
+        left:50px;
+      }
+  
+}
+/* sm */
+@media (max-width: 640px) {
+    .bloc11{
+        width: 100%;
+    
+    }
+    .flipster__item__content{
+        position: relative;
+        left: -35px;
+        height: 30px;
+    }
+    .flipster{
+        height: 343px;
+    }
+    .flipster__item img {
+        max-width: 100%;
+        width: 331px !important;
+        height: 331px;
+        position: relative;
+        left:40px;
+      }
+    .service-header {
+        background-image: url(../img/services-header.png);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    .blog-h1 {
+        font-size: 50px !important;
+    }
+
+    .footer-items {
+        position: relative !important;
+        top: 0px !important;
+        left: 10% !important;
+        display: none !important;
+
+    }
+
+    .footer-item {
+        color: #000000 !important;
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        text-align: start !important;
+
+    }
+
+    .descriptionBloc {
+        position: relative !important;
+        left: 0px !important;
+    
+
+    }
+
+    .icons-footer {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+
+
+
+    /* ----------------------------------------------------------- */
+
+
+    .img-bg {
+        width: 50% !important;
+        height: 80% !important;
+    }
+
+    .h-41 {
+        font-size: 10px !important;
+        text-align: center !important;
+        width: 100% !important;
+        line-height:1px;
+        position: relative !important;
+        top: 29px !important;
+    }
+
+    .reg-center {
+        padding-top: 5% !important;
+        padding-bottom: 5% !important;
+    }
+    #about_b {
+        display: none !important;
+    }
+
+    .presentation-img {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .t-blog {
+        font-size: 20px !important;
+    }
+
+    .s-masque {
+        padding-left: 18% !important;
+    }
+
+    .service-h1 {
+        margin-top: 80px !important;
+        font-size: 30px !important;
+    }
+
+    .section-padding {
+        padding-top: 50% !important;
+        padding-bottom: 15% !important;
+    }
+
+    .about-p-p {
+        padding-top: 20vh !important;
+        color: #fff !important;
+    }
+
+    .footer-line1:before {
+        content: "" !important;
+        background: transparent !important;
+    }
+
+    .footer-line3:before {
+        content: "" !important;
+        background: transparent !important;
+    }
+
+    .h1-38 {
+        font-size: 28px !important;
+    }
+
+    .h1-68 {
+        font-size: 48px !important;
+    }
+
+    .bg-section {
+        background-image: none !important;
+        height: auto !important;
+    }
+
+    .bg-section1 {
+        background-image: none !important;
+        padding-bottom: 20% !important;
+        padding-left: 10% !important;
+    }
+
+    .para {
+        padding-left: 15% !important;
+    }
+
+    .parag2 {
+        text-align: center !important;
+    }
+
+    .l-hiden {
+        display: none !important;
+    }
+
+    .s-logo-text {
+        padding-left: 0% !important;
+        padding-bottom: 5% !important;
+    }
+
+    .divide .top {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background-color: black !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 50px !important;
+        bottom: -18px !important;
+        border-radius: 2px !important;
+    }
+    
+    .divide2 .top2 {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background-color: white !important;
+        width: 40px !important;
+        height: 40px !important;
+        position: absolute !important;
+        right: 0 !important;
+        margin-right: 50px !important;
+        bottom: -18px !important;
+        border-radius: 2px !important;
+    }
+  
+    .elements{
+        position: relative;
+        top: -60px;
+    }
+    .cardPagination {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 250px !important;
+    
+        margin: 10px 10px !important;
+    
+    }
+    .semiTitle{
+        text-align: center;
+    }
+    .cardprestation {
+        font-size: 15px !important;
+        line-height: 20px !important;
+        font-weight: 500 !important;
+        position: relative !important;
+        top: -10px !important;
+    }
+    .center-mobile{
+        position: relative;
+        top: -150px;
+    }
+    .cardFlip{
+        position: relative;
+        top: 60px;
+    }
+    .service-header-custom {
+        padding-top: 250px;
+        background-color: black ;
+      }
+    /* ---------------------------------------------------------- */
+}
+
+
+
+/*----------Responsive----------*/
+@media (max-width: 700px) {
+    .cardsPagination {
+        padding: 20px !important;
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        justify-items: center;
+    }
+}
+
+@media (min-width: 700px) {
+    .cardsPagination {
+        padding: 20px !important;
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        justify-items: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .cardsPagination {
+        padding: 20px !important;
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+
+.divide {
+    background-color: rgb(245, 245, 245) !important;
+    padding: 100px 5% 0 7% !important;
+    position: relative !important;
+    z-index: 0 !important;
+}
+
+.divide .line {
+    border-top: solid 2px rgba(167, 167, 167, 0.562) !important;
+
+}
+
+
+.divide img {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+/* --------------------------------------- */
+
+
+
+
